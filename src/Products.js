@@ -1,55 +1,64 @@
 export const PRODUCTS = [
   {
     id: 1,
-    productName: 'Iphone',
+    productName:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem eveniet debitis animi neque, minus quasi',
     price: 999.0,
     productImage: '/media/product1.jpg',
   },
   {
     id: 2,
-    productName: 'Iphone',
+    productName:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem eveniet debitis animi neque, minus quasi',
     price: 999.0,
     productImage: '/media/product2.jpg',
   },
   {
     id: 3,
-    productName: 'Iphone',
+    productName:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem eveniet debitis animi neque, minus quasi',
     price: 999.0,
     productImage: '/media/product3.jpg',
   },
   {
     id: 4,
-    productName: 'Iphone',
+    productName:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem eveniet debitis animi neque, minus quasi',
     price: 999.0,
     productImage: '/media/product4.jpg',
   },
   {
     id: 5,
-    productName: 'Iphone',
+    productName:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem eveniet debitis animi neque, minus quasi',
     price: 999.0,
-    productImage: '/media/product5.png',
+    productImage: '/media/product5.jpeg',
   },
   {
     id: 6,
-    productName: 'Iphone',
+    productName:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem eveniet debitis animi neque, minus quasi',
     price: 999.0,
-    productImage: '/media/product6.jpeg',
+    productImage: '/media/product4.jpg',
   },
   {
     id: 7,
-    productName: 'Iphone',
+    productName:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem eveniet debitis animi neque, minus quasi',
     price: 999.0,
     productImage: '/media/product7.jpeg',
   },
   {
     id: 8,
-    productName: 'Iphone',
+    productName:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem eveniet debitis animi neque, minus quasi',
     price: 999.0,
     productImage: '/media/product8.jpeg',
   },
   {
     id: 9,
-    productName: 'Iphone',
+    productName:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem eveniet debitis animi neque, minus quasi',
     price: 999.0,
     productImage: '/media/product9.jpeg',
   },

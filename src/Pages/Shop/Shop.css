@@ -1,0 +1,6 @@
+.ShopW h1{
+ @apply w-max m-auto my-8 text-3xl
+}
+.products {
+@apply grid grid-cols-3 place-items-center gap-y-8
+}
