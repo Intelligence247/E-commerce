@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import { ShopContext } from '../Context/Shop_context';
 const EachProduct = (props) => {
   const { id, productName, price, productImage } = props.data;
+
   const { addToCart, cartItems } = useContext(ShopContext);
   const displayAmount = cartItems[id] > 0 ? `(${cartItems[id]})` : '';
   return (

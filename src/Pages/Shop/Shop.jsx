@@ -10,12 +10,7 @@ const Shop = () => {
       <div className="products">
         {PRODUCTS.map((product, i) => (
           <div key={i}>
-            <EachProduct
-              data={product}
-              // name={product.productName}
-              // img={product.productImage}
-              // price={product.price}
-            />
+            <EachProduct data={product} />
           </div>
         ))}
       </div>
