@@ -8,12 +8,15 @@ const Shop = () => {
       <h1>Welcome to my Shop</h1>
       <div className="Products"></div>
       <div className="products">
-        {PRODUCTS.map((product) => (
-          <EachProduct
-            name={product.productName}
-            img={product.productImage}
-            price={product.price}
-          />
+        {PRODUCTS.map((product, i) => (
+          <div key={i}>
+            <EachProduct
+              data={product}
+              // name={product.productName}
+              // img={product.productImage}
+              // price={product.price}
+            />
+          </div>
         ))}
       </div>
     </div>
