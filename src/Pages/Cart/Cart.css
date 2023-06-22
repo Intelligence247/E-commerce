@@ -1,6 +1,6 @@
 
 .cartW{
- @apply grid place-content-center gap-y-8
+ @apply grid place-content-center gap-y-8 pb-8
 }
 .cartW h1{
  @apply text-3xl text-center py-8
@@ -14,7 +14,7 @@
  @apply grid place-content-center bg-black px-4 py-1 text-white rounded-lg 
 }
 .total{
- @apply font-bold text-center
+ @apply font-bold text-center mb-8
 }
 .bottomCart {
  @apply flex gap-4

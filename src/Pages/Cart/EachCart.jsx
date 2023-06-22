@@ -6,7 +6,7 @@ const EachCart = (props) => {
   const { cartItems, addToCart, removeFromCart, editInput } =
     useContext(ShopContext);
   return (
-    <div className="flex gap-1 justify-center items-center shadow-black shadow-inner w-[20rem] h-[max] p-2 border-2 rounded-lg">
+    <div className="flex gap-1 justify-center items-center shadow-black shadow-inner lg:w-[20rem] w-full h-[max] p-2 border-2 rounded-lg">
       <img src={productImage} className="w-20 h-20" alt="" />
       <div>
         <p className="mb-4 text-center font-bold">{productName}</p>

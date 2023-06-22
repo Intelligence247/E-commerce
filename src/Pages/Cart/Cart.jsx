@@ -11,9 +11,9 @@ const Cart = () => {
     <div className="cartW">
       <h1>These are your carts</h1>
       <div className="cartsChosen">
-        {PRODUCTS.map((product) => {
+        {PRODUCTS.map((product, i) => {
           if (cartItems[product.id] > 0) {
-            return <EachCart data={product} />;
+            return <EachCart Key={i} data={product} />;
           }
         })}
       </div>

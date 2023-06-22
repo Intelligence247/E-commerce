@@ -3,9 +3,19 @@
 @tailwind utilities;
 
 *{
-  @apply p-0 m-0 box-border text-black
+  @apply p-0 m-0 box-border text-black lg:text-base text-sm
 }
 
 .body{
-  @apply w-full h-auto bg-white
+  @apply w-full h-auto bg-white 
+}
+::-webkit-scrollbar {
+  width: 1px;
+  @apply bg-black
+
+}
+
+::-webkit-scrollbar-thumb {
+   @apply bg-white rounded-full
+
 }
