@@ -1,22 +1,25 @@
 .navW{
- @apply h-20 bg-black px-10 fixed w-full flex items-center top-0
+ @apply h-20 bg-black lg:px-10 px-4 fixed w-full flex items-center top-0 lg:gap-20 justify-between
 }
-.leftContent{
- @apply flex items-center gap-8 w-full
+.rightContent{
+ @apply flex lg:flex-row flex-col items-center gap-8 lg:w-full lg:relative fixed right-0 w-[70%] lg:bg-transparent bg-blue-400 lg:h-max h-screen top-0 justify-center
+}
+.active{
+ @apply lg:left-0 -right-[70%]
 }
 .storeW{
- @apply flex gap-8
+ @apply flex gap-8 lg:flex-row flex-col
 }
 
 .storeW p, .storeW a, .navCartW p{
  @apply text-white
 }
 .navW span{
- @apply flex-grow-[1]
+ @apply flex-grow-[1] lg:block hidden
 }
 
 .navCartW{
- @apply h-full flex text-white items-center gap-6 border-2 rounded-lg px-4 py-1
+ @apply h-full flex text-white items-center lg:gap-4 gap-2 border-2 rounded-lg px-4 py-1 
 }
 
 .navCartW p:first-child{
@@ -30,4 +33,38 @@
 }
 .navCartW:hover p:nth-child(2){
  @apply block
+}
+
+.harmburger{
+ @apply lg:hidden block z-20 space-y-2 relative flex flex-col w-9 h-9 items-center pt-2
+}
+
+.harmburger p{
+ @apply w-8 h-[2px] bg-white rotate-0 opacity-100 rounded-full
+}
+.activeNav{
+ @apply gap-0 space-y-0 pt-2
+}
+.activeNav p{
+ @apply absolute origin-center z-10 
+}
+.activeNav p:first-child{
+ @apply rotate-[135deg] 
+}
+
+.activeNav p:nth-child(2){
+ @apply opacity-0
+}
+.activeNav p:nth-child(2),.activeNav p:nth-child(3){
+ @apply rotate-[-135deg]
+}
+
+.overlay{
+ @apply lg:hidden block fixed top-0 min-h-screen h-screen w-[30%] bg-gray-100 z-20 opacity-5 backdrop-blur-[7px] right-[70%] duration-[0.4s]
+}
+.activeOverlay{
+ @apply -right-[30%] opacity-0
+}
+.navW p, .navW a{
+ @apply lg:text-base text-[1.2rem]
 }

@@ -1,38 +1,54 @@
 import { Car, Hamburger, ShoppingCart, VideoCameraSlash } from 'phosphor-react';
 import './Nav.css';
-import React from 'react';
+import React, { useContext, useState } from 'react';
 import { Link } from 'react-router-dom';
+import { ShopContext } from '../../Context/Shop_context';
 const Navbar = () => {
+  const [navAction, SetNavAction] = useState(true);
+  const { gettotalAmount } = useContext(ShopContext);
+  const total = gettotalAmount();
   return (
     <div className="navW">
-      <div className="leftContent">
-        <div className="NavImg">
-          <Car size={60} />
-        </div>
+      <div className="NavImg">
+        <Car size={45} />
+      </div>
+      <div className={`rightContent ${navAction && 'active'}`}>
         <div className="storeW">
-          <p>
+          <p onClick={() => SetNavAction(!navAction)}>
             <a href="/">Home</a>
           </p>
-          <p>
+          <p onClick={() => SetNavAction(!navAction)}>
             <a href="#about">About</a>
           </p>
-          <Link to="/">
+          <Link to="/" onClick={() => SetNavAction(!navAction)}>
             <p className=" text-white cursor-pointer">Store</p>
           </Link>
         </div>
         <span className=""></span>
         <Link to="/cart">
-          <div className="navCartW">
+          <div className="navCartW" onClick={() => SetNavAction(!navAction)}>
             <p>
               <ShoppingCart size={32} />
             </p>
             <p>
               <ShoppingCart size={32} color="white" />
             </p>
-            <p>$12.00</p>
+            <p>$ {total}</p>
           </div>
         </Link>
       </div>
+      <div
+        className={`harmburger ${!navAction && 'activeNav'}`}
+        onClick={() => SetNavAction(!navAction)}
+      >
+        <p></p>
+        <p></p>
+        <p></p>
+      </div>
+      <div
+        className={`overlay ${navAction && 'activeOverlay'}`}
+        onClick={() => SetNavAction(!navAction)}
+      ></div>
     </div>
   );
 };

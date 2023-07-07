@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import reactLogo from './assets/react.svg';
-import './App.css';
 import { Cube, GithubLogo, Heart, Horse, IconContext } from 'phosphor-react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Shop from './Pages/Shop/Shop';

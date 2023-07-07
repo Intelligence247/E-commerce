@@ -1,7 +1,7 @@
 .ShopW{
  @apply pb-8 pt-20
 }
-.ShopW h1{
+.ShopW > h1{
  @apply w-max m-auto text-3xl py-10
 }
 .products {

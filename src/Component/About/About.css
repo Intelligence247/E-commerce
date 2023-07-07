@@ -1,0 +1,13 @@
+.aboutW{
+ @apply grid lg:grid-cols-2 w-full grid-cols-1 place-content-center items-center lg:gap-x-8 gap-y-6 lg:px-20 px-4 mt-10
+}
+
+.aboutLeft{
+ @apply flex flex-col lg:gap-10 gap-4
+}
+.aboutLeft > h1{
+ @apply lg:text-[3rem] text-[1.5rem]
+}
+.aboutLeft > h1 span{
+ @apply text-green-600 lg:text-[3rem] text-[1.5rem]
+}
