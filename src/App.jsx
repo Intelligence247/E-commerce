@@ -3,10 +3,10 @@ import reactLogo from './assets/react.svg';
 import './App.css';
 import { Cube, GithubLogo, Heart, Horse, IconContext } from 'phosphor-react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from './Component/Navbar';
 import Shop from './Pages/Shop/Shop';
 import Cart from './Pages/Cart/Cart';
 import { ShopContextProvider } from './Context/Shop_context';
+import Navbar from './Component/Nav/Navbar';
 
 // npm install --save phosphor-react
 

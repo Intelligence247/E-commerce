@@ -1,0 +1,33 @@
+.navW{
+ @apply h-20 bg-black px-10 fixed w-full flex items-center top-0
+}
+.leftContent{
+ @apply flex items-center gap-8 w-full
+}
+.storeW{
+ @apply flex gap-8
+}
+
+.storeW p, .storeW a, .navCartW p{
+ @apply text-white
+}
+.navW span{
+ @apply flex-grow-[1]
+}
+
+.navCartW{
+ @apply h-full flex text-white items-center gap-6 border-2 rounded-lg px-4 py-1
+}
+
+.navCartW p:first-child{
+ @apply block
+}
+.navCartW p:nth-child(2){
+ @apply hidden
+}
+.navCartW:hover p:first-child{
+ @apply hidden
+}
+.navCartW:hover p:nth-child(2){
+ @apply block
+}
