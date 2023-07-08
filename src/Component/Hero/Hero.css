@@ -11,5 +11,5 @@
  @apply text-green-600 text-[3rem] leading-[3rem]
 }
 .heroContent button{
- @apply border-2 border-black w-[5rem] h-9 rounded-lg hover:bg-black hover:text-green-600 
+ @apply border-2 w-[5rem] h-9 rounded-lg hover:bg-black hover:text-green-600 text-white border-white 
 }

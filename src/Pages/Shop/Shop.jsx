@@ -9,7 +9,9 @@ const Shop = () => {
     <div className="ShopW">
       <Hero />
       <About />
-      <h1>Welcome to my Shop</h1>
+      <h1>
+        Our <span>Store</span>
+      </h1>
       <div className="products">
         {PRODUCTS.map((product, i) => (
           <div key={i}>

@@ -16,6 +16,7 @@ const About = () => {
         </p>
       </div>
       <div className="aboutImg">
+        <div className="borda"></div>
         <img src="/media/product3.jpg" alt="" />
       </div>
     </div>

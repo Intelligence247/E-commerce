@@ -1,8 +1,8 @@
 .navW{
- @apply h-20 bg-black lg:px-10 px-4 fixed w-full flex items-center top-0 lg:gap-20 justify-between
+ @apply h-20 bg-black lg:px-10 px-4 fixed w-full flex items-center top-0 lg:gap-20 justify-between z-10
 }
 .rightContent{
- @apply flex lg:flex-row flex-col items-center gap-8 lg:w-full lg:relative fixed right-0 w-[70%] lg:bg-transparent bg-blue-400 lg:h-max h-screen top-0 justify-center
+ @apply flex lg:flex-row flex-col items-center gap-8 lg:w-full lg:relative fixed right-0 w-[70%] lg:bg-transparent bg-black lg:h-max h-screen top-0 justify-center
 }
 .active{
  @apply lg:left-0 -right-[70%]
@@ -60,7 +60,7 @@
 }
 
 .overlay{
- @apply lg:hidden block fixed top-0 min-h-screen h-screen w-[30%] bg-gray-100 z-20 opacity-5 backdrop-blur-[7px] right-[70%] duration-[0.4s]
+ @apply lg:hidden block fixed top-0 min-h-screen h-screen w-[30%] bg-black z-20 opacity-5 backdrop-blur-[7px] right-[70%] duration-[0.4s]
 }
 .activeOverlay{
  @apply -right-[30%] opacity-0

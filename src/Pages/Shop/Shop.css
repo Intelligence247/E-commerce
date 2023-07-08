@@ -5,5 +5,11 @@
  @apply w-max m-auto text-3xl py-10
 }
 .products {
-@apply grid lg:grid-cols-3 place-items-center gap-y-8
+@apply grid lg:grid-cols-3 place-items-center gap-y-8 bg-[#c1c1c1] py-8 bg-opacity-100 lg:px-20
+}
+.ShopW > h1{
+ @apply lg:text-[3rem] text-[1.5rem]
+}
+.ShopW > h1 span{
+ @apply text-green-600 lg:text-[3rem] text-[1.5rem]
 }

@@ -31,7 +31,7 @@ const Navbar = () => {
               <ShoppingCart size={32} />
             </p>
             <p>
-              <ShoppingCart size={32} color="white" />
+              <ShoppingCart size={32} color="#FF9800" />
             </p>
             <p>$ {total}</p>
           </div>

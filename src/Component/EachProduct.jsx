@@ -7,7 +7,7 @@ const EachProduct = (props) => {
   const { addToCart, cartItems } = useContext(ShopContext);
   const displayAmount = cartItems[id] > 0 ? `(${cartItems[id]})` : '';
   return (
-    <div className="flex flex-col gap-1 justify-center items-center w-[18rem] h-[max] p-2 border-2 rounded-lg">
+    <div className="flex flex-col gap-1 justify-center items-center w-[18rem] h-[max] p-2 border-primaryOrange border-opacity-70 border-2 rounded-lg">
       <img src={productImage} className="w-60 h-60" alt="" />
       <p className="mb-4 text-center">{productName}</p>
       <div>${price}</div>

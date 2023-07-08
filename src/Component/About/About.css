@@ -1,5 +1,5 @@
 .aboutW{
- @apply grid lg:grid-cols-2 w-full grid-cols-1 place-content-center items-center lg:gap-x-8 gap-y-6 lg:px-20 px-4 mt-10
+ @apply grid lg:grid-cols-2 w-full grid-cols-1 place-content-center items-center lg:gap-x-8 gap-y-6 lg:px-20 px-4 mt-10 bg-[#c1c1c1] h-[100vh]
 }
 
 .aboutLeft{
@@ -10,4 +10,18 @@
 }
 .aboutLeft > h1 span{
  @apply text-green-600 lg:text-[3rem] text-[1.5rem]
+}
+
+.aboutImg .borda{
+ @apply border-primaryOrange border-0 w-full h-full absolute rounded-none -translate-x-4 -translate-y-4 duration-500
+}
+.aboutImg{
+ @apply h-full relative
+}
+.aboutImg img{
+ @apply w-full rounded-lg
+}
+
+.aboutImg:hover .borda{
+ @apply border-4 rounded-lg -translate-x-0 -translate-y-0
 }
