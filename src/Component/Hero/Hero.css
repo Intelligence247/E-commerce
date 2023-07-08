@@ -1,0 +1,15 @@
+.heroW{
+ @apply h-screen w-full bg-gray-900 bg-opacity-10 grid place-content-center
+}
+.heroContent{
+ @apply flex flex-col space-y-4 justify-center items-center
+}
+.heroContent h1{
+ @apply text-white text-[3rem] leading-[3rem]
+}
+.heroContent p{
+ @apply text-green-600 text-[3rem] leading-[3rem]
+}
+.heroContent button{
+ @apply border-2 border-black w-[5rem] h-9 rounded-lg hover:bg-black hover:text-green-600 
+}

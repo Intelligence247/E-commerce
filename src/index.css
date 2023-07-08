@@ -2,7 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
+*{  
+    font-family: "Kaushan Script", cursive;
   @apply p-0 m-0 box-border text-black lg:text-base text-sm transition-all ease-linear duration-[0.3s] scroll-smooth
 }
 
