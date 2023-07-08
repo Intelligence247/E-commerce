@@ -4,6 +4,7 @@ import { PRODUCTS } from '../../Products';
 import './Shop.css';
 import About from '../../Component/About/About';
 import Hero from '../../Component/Hero/Hero';
+import Search from '../../Component/Search/Search';
 const Shop = () => {
   return (
     <div className="ShopW">
@@ -12,6 +13,7 @@ const Shop = () => {
       <h1>
         Our <span>Store</span>
       </h1>
+      <Search />
       <div className="products">
         {PRODUCTS.map((product, i) => (
           <div key={i}>
