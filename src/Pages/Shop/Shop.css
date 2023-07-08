@@ -1,5 +1,5 @@
 .ShopW{
- @apply pb-8 pt-20
+ @apply pb-8 pt-20 bg-[url(/media/product2.jpg)] bg-fixed bg-cover bg-center 
 }
 .ShopW > h1{
  @apply w-max m-auto text-3xl py-10
