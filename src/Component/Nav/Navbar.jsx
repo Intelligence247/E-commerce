@@ -15,14 +15,18 @@ const Navbar = () => {
       <div className={`rightContent ${navAction && 'active'}`}>
         <div className="storeW">
           <p onClick={() => SetNavAction(!navAction)}>
-            <a href="/">Home</a>
+            <Link to="/">Home</Link>
           </p>
           <p onClick={() => SetNavAction(!navAction)}>
             <a href="#about">About</a>
           </p>
-          <Link to="/" onClick={() => SetNavAction(!navAction)}>
-            <p className=" text-white cursor-pointer">Store</p>
-          </Link>
+
+          <p
+            className=" text-white cursor-pointer"
+            onClick={() => SetNavAction(!navAction)}
+          >
+            <a href="#store">Store</a>
+          </p>
         </div>
         <span className=""></span>
         <Link to="/cart">

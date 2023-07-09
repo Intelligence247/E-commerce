@@ -1,5 +1,5 @@
 import React from 'react';
-import EachProduct from '../../Component/EachProduct';
+import EachProduct from '../../Component/EachProduct/EachProduct';
 import { PRODUCTS } from '../../Products';
 import './Shop.css';
 import About from '../../Component/About/About';
@@ -10,7 +10,7 @@ const Shop = () => {
     <div className="ShopW">
       <Hero />
       <About />
-      <h1>
+      <h1 id="store">
         Our <span>Store</span>
       </h1>
       <Search />

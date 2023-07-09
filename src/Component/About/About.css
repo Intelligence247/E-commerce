@@ -1,7 +1,6 @@
 .aboutW{
- @apply grid lg:grid-cols-2 w-full grid-cols-1 place-content-center items-center lg:gap-x-8 gap-y-6 lg:px-20 px-4 mt-10 bg-[#c1c1c1] h-[100vh]
+ @apply grid lg:grid-cols-2 w-full grid-cols-1 place-content-center items-center lg:gap-x-8 gap-y-6 lg:px-20 px-4 mt-10 bg-[#eeeeee] h-[100vh]
 }
-
 .aboutLeft{
  @apply flex flex-col lg:gap-10 gap-4
 }
@@ -19,7 +18,7 @@
  @apply h-full relative
 }
 .aboutImg img{
- @apply w-full rounded-lg
+ @apply w-full rounded-lg border-[1px] border-primaryOrange 
 }
 
 .aboutImg:hover .borda{
