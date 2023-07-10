@@ -44,3 +44,4 @@ export const ShopContextProvider = (props) => {
     </ShopContext.Provider>
   );
 };
+// const filtered = PRODUCTS.filter((n) => n.productName === 'BENZ');
