@@ -1,15 +1,21 @@
 import React from 'react';
 import './Search.css';
 
-const Search = () => {
+const Search = ({
+  handleAllclick,
+  handleBmwClick,
+  handleBenzClick,
+  handleRolceClick,
+  handleLexusClick,
+}) => {
   return (
     <div className="searchW">
       <div className="btns">
-        <button>All</button>
-        <button>BMW</button>
-        <button>BENZ</button>
-        <button>ROLCE ROYS</button>
-        <button>LEXUS</button>
+        <button onClick={handleAllclick}>All</button>
+        <button onClick={handleBmwClick}>BMW</button>
+        <button onClick={handleBenzClick}>BENZ</button>
+        <button onClick={handleRolceClick}>ROLCE ROYS</button>
+        <button onClick={handleLexusClick}>LEXUS</button>
       </div>
       <div className="inputs">
         <input type="text" />
