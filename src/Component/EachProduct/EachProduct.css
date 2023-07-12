@@ -1,5 +1,5 @@
 .eachP{
- @apply flex flex-col gap-1 justify-center items-center w-[18rem] h-[max] p-2 border-primaryOrange border-[1px] border-opacity-70 rounded-lg relative 
+ @apply flex flex-col gap-1 justify-center items-center w-[18rem] h-[max] p-2 border-[#112240] border-[1px] border-opacity-70 rounded-lg relative 
 }
 .eachP:hover{
  @apply border-white duration-100

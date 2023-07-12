@@ -7,3 +7,12 @@
 .searchW button{
  @apply border-2 border-primaryOrange text-green-600 px-2 py-0.5 rounded-lg
 }
+.inputs{
+ @apply flex
+}
+.inputs input{
+ @apply lg:w-[30rem] border-[#112240] border-2 outline-none rounded-tr-lg rounded-br-lg pl-2
+}
+.inputs .searchIcon{
+ @apply w-8 h-8 bg-[#112240] grid place-content-center rounded-tl-lg rounded-bl-lg pl-2
+}

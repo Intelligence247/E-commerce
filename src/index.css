@@ -4,7 +4,7 @@
 
 *{  
     font-family: "Kaushan Script", cursive;
-  @apply p-0 m-0 box-border text-black lg:text-base text-sm transition-all ease-linear duration-[0.3s] scroll-smooth
+  @apply p-0 m-0 box-border text-[#112240] lg:text-base text-sm transition-all ease-linear duration-[0.3s] scroll-smooth
 }
 
 .body{
@@ -12,7 +12,7 @@
 }
 
 ::-webkit-scrollbar{
-  @apply lg:w-[6px] bg-[#112240] 
+@apply lg:w-[6px] bg-[#112240] 
 }
 ::-webkit-scrollbar-thumb{
   @apply bg-[#8892b0] rounded-full 

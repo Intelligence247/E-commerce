@@ -1,8 +1,8 @@
 .navW{
- @apply h-20 bg-black lg:px-10 px-4 fixed w-full flex items-center top-0 lg:gap-20 justify-between z-10
+ @apply h-20 bg-[#112240] lg:px-10 px-4 fixed w-full flex items-center top-0 lg:gap-20 justify-between z-10
 }
 .rightContent{
- @apply flex lg:flex-row flex-col items-center gap-8 lg:w-full lg:relative fixed right-0 w-[70%] lg:bg-transparent bg-black lg:h-max h-screen top-0 justify-center
+ @apply flex lg:flex-row flex-col items-center gap-8 lg:w-full lg:relative fixed right-0 w-[70%] lg:bg-transparent bg-[#112240] lg:h-max h-screen top-0 justify-center
 }
 .active{
  @apply lg:left-0 -right-[70%]
@@ -12,7 +12,7 @@
 }
 
 .storeW p, .storeW a, .navCartW p{
- @apply text-white
+ @apply text-white hover:text-green-600
 }
 .navW span{
  @apply flex-grow-[1] lg:block hidden

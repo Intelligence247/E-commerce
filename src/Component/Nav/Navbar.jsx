@@ -10,7 +10,9 @@ const Navbar = () => {
   return (
     <div className="navW">
       <div className="NavImg">
-        <Car size={45} />
+        <Link to="/">
+          <Car size={45} />
+        </Link>
       </div>
       <div className={`rightContent ${navAction && 'active'}`}>
         <div className="storeW">

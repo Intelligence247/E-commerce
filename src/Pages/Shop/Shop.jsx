@@ -9,10 +9,14 @@ import Search from '../../Component/Search/Search';
 const Shop = () => {
   const [Indexed, setIndexed] = useState(0);
   const [Inputs, setInputs] = useState('');
-
+  const inputFilltered = PRODUCTS.filter((n) =>
+    n.productName.toUpperCase().includes(Inputs.toUpperCase()),
+  );
+  console.log(Inputs);
+  console.log(inputFilltered);
   const filtereds = PRODUCTS.filter((n) => {
-    if (n.productName.includes(Inputs)) {
-      return n.productName === Inputs;
+    if (Inputs.length >= 1) {
+      return n.productName.toUpperCase().includes(Inputs.toUpperCase());
     } else if (Indexed === 0) {
       return n.productName === n.productName;
     } else if (Indexed === 1) {
@@ -24,10 +28,9 @@ const Shop = () => {
     } else if (Indexed === 4) {
       return n.productName === 'LEXUS';
     } else {
-      return '';
+      return inputFilltered;
     }
   });
-  console.log(Inputs);
   const mapping = PRODUCTS.map((p) => {});
   return (
     <div className="ShopW">

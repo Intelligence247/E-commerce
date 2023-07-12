@@ -45,7 +45,7 @@ export const PRODUCTS = [
     id: 8,
     productName: 'ROLCE ROYS',
     price: 838.0,
-    productImage: '/media/product8.jpeg',
+    productImage: '/media/product5.jpeg',
   },
   {
     id: 9,
@@ -57,18 +57,18 @@ export const PRODUCTS = [
     id: 10,
     productName: 'LEXUS',
     price: 129.0,
-    productImage: '/media/product7.jpeg',
+    productImage: '/media/product1.jpg',
   },
   {
     id: 11,
     productName: 'LEXUS',
     price: 833.0,
-    productImage: '/media/product8.jpeg',
+    productImage: '/media/product4.jpg',
   },
   {
     id: 12,
     productName: 'LEXUS',
     price: 911.0,
-    productImage: '/media/product9.jpeg',
+    productImage: '/media/product2.jpg',
   },
 ];

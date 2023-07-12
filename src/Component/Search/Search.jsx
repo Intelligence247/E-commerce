@@ -1,5 +1,6 @@
 import React from 'react';
 import './Search.css';
+import { FileSearch } from 'phosphor-react';
 
 const Search = ({ setIndexed, setInputs }) => {
   const btnArr = ['ALL', 'BMW', 'BENZ', 'ROLCE ROYS', 'LEXUS'];
@@ -13,8 +14,12 @@ const Search = ({ setIndexed, setInputs }) => {
         ))}
       </div>
       <div className="inputs">
+        <div className="searchIcon">
+          <FileSearch size={20} color="white" />
+        </div>
         <input
           type="text"
+          placeholder="Name of Item..."
           onChange={(e) => setInputs(e.target.value.toUpperCase())}
         />
       </div>
