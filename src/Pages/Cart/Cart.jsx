@@ -29,7 +29,17 @@ const Cart = () => {
           </div>
         </div>
       ) : (
-        <h1>Your cart is empty</h1>
+        <h1>
+          Your cart is empty.{'  '}
+          <button>
+            <Link
+              to="/"
+              className="text-[1.5rem] border-0 border-primaryOrange hover:border-b-4 "
+            >
+              Go to Store
+            </Link>
+          </button>
+        </h1>
       )}
     </div>
   );
