@@ -11,10 +11,10 @@
 - React
 - TailwindCss
 ## Preview here
-[Go Live](https://musical-druid-25010a.netlify.app)
+[Go Live](https://harmonious-bavarois-1f640c.netlify.app)
 
-![screenshot](/public/media/sketch.png)
-![screenshot](/public/media/sketch2.png)
+![screenshot](/public/sketch.png)
+![screenshot](/public/sketch2.png)
 
 
 ## Contact
